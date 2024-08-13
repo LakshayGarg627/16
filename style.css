@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.info{
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    width: 70%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+}
+.logo img{
+    height: 4rem;
+    width: 5rem;
+    margin-top: 0.5rem;
+    
+}
+.name a{
+    color: white;
+}
+.name a{
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.5;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links a{
+    font-size: 1.3rem;
+    margin-right: 3rem;
+    
+}
+.links p{
+    line-height: 1.5;
+    transition: all 0.2s ease-in 0.2s ;
+    display: flex;
+
+}
+
+.links p:hover{
+    color: red;
+    font-size: 1.5rem;
+
+
+}
+.links button{
+   
+    height: 60% ;
+    margin-top: 0.8rem;
+    width: 7rem;
+    background-color: red;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out 0.2s;
+}
+
+.links button:hover{
+    opacity: 1;
+    height: 70%;
+    width: 7.5rem;
+}
+.links input{
+    height: 60%;
+    width: 25%;
+    margin-top: 0.8rem;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+}
+.links i{
+    height: 2rem;
+}
+.search{
+    height: 64%;
+    width: 2.5rem;
+    margin-top: 0.9rem;
+    background-color: white;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+
+}
+.search i{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.3rem;
+}
+.links input::placeholder{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    margin-top:0.5rem ;
+}
+.first{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2rem;
+    height: 60vh;
+    background-color: black;
+    border-radius: 2rem;
+}
+.first img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+}
+.second{
+    background-color: rgba(100,155,245,255);
+    height: 40vh;
+    margin-top: 2rem;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 2rem;
+}
+.second h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+.logo1 i{
+    font-size: 2rem;
+    margin-right: 1rem;
+    
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.nav2{
+    height: 10vh;
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgba(100,155,245,255);
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav2 a{
+    font-size: 1.5rem;
+   color: black;
+   font-weight: 700
+    
+}
+.about{
+    height: 60vh;
+    background-color: white;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border:0.5px solid rgb(226, 223, 223) ;
+}
+.title{
+    
+    margin-top: 2rem;
+    height: 10vh;
+    background-color: blue;
+    border-radius: 2rem;
+    width: 96%;
+   margin-left: 1.5rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title1{
+    background-color: red;
+}
+.about1{
+    height: 80vh;
+}
+.content{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2rem;
+}
+.desc p{
+    font-size: 1.5rem;
+}
+.desc2 li{
+    font-size: 1.5rem;
+
+}
+.desc2 p{
+    font-weight: 700;
+}
+
